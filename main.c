@@ -3,8 +3,8 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define LED_DDR		DDRB		///< DDR of LED.
-#define LED_PORT	PORTB		///< Port of LED.
+#define LED_DDR		DDRB			///< DDR of LED.
+#define LED_PORT	PORTB			///< Port of LED.
 #define	BLUE_PIN	0			///< Pin number of blue colour LED terminal.
 #define GREEN_PIN	1			///< Pin number of green colour LED terminal.
 #define RED_PIN		2			///< Pin number of red colour LED terminal.
